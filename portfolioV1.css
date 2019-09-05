@@ -32,6 +32,10 @@ nav {
 	
 }
 
+.navbar_option a {
+	text-decoration: none;
+	color:#006666;
+}
 .main_container {
 	background-image: url("https://cdn.pixabay.com/photo/2018/02/13/23/41/nature-3151869_960_720.jpg");
 	background-size: cover;
@@ -108,6 +112,7 @@ footer {
 	width: 100%;
 	max-width: 500px;
 	text-align: center;
+	color: #006666;
 }
 
 h4 {
@@ -121,4 +126,7 @@ h4 {
 
 h4 a {
 	float: right;
+	text-decoration: none;
+	color:#006666;
+	
 }
