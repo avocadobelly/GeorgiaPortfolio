@@ -11,11 +11,17 @@ body {
 	padding: 0;
 }
 
+nav {
+	background-color: #d9b38c;
+}
+
 .navbar_content {
-	margin: 10px auto;
+	margin: 0px auto;
 	width: 100%;
 	max-width: 500px;
 	text-align: center;
+	background-color: #d9b38c;
+	padding: 10px;
 }
 
 .navbar_option {
@@ -23,6 +29,7 @@ body {
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
 	padding-right: 50px;
 	background-color: #d9b38c;
+	
 }
 
 .main_container {
