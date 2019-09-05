@@ -11,12 +11,19 @@ body {
 	padding: 0;
 }
 
+.navbar_content {
+	overflow: auto;
+}
+
+.navbar_option {
+	float: left;
+}
+
 .main_content {
 	background-image: url("https://cdn.pixabay.com/photo/2018/02/13/23/41/nature-3151869_960_720.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 600px;
-	
 }
 
 .portfolio_content div {
