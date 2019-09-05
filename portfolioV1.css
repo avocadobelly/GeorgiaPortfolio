@@ -29,6 +29,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 150px 600px 1000px 600px;
+	color: #ffffff;
 }
 
 
@@ -54,14 +55,17 @@ body {
 	width: 33.3%;
 	height: 500px;
 	float: left;
-	
+	text-align: center;
+	padding: 300px 0px;
 }
 
+.portfolio_content a {
+	color: #ffffff;
+}
 .portfolio_project1
 {
 	background-image: url("https://cdn.pixabay.com/photo/2019/08/30/10/28/cep-4440928_960_720.jpg");
-	background-size: cover;
-	
+	background-size: cover;	
 }
 
 .portfolio_project2
@@ -75,6 +79,7 @@ body {
 	background-image: url("https://cdn.pixabay.com/photo/2017/09/25/21/13/mushroom-2786789_960_720.jpg");
 	background-size: cover;
 }
+
 
 .footer_content {
 	margin: 10px auto;
