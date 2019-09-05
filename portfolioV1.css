@@ -12,7 +12,6 @@ body {
 }
 
 .navbar_content {
-	overflow: auto;
 	margin: 10px auto;
 	width: 100%;
 	max-width: 500px;
@@ -73,3 +72,22 @@ body {
 	background-size: cover;
 }
 
+.footer_content {
+	margin: 10px auto;
+	width: 100%;
+	max-width: 500px;
+	text-align: center;
+}
+
+h4 {
+	display: inline-block;
+	overflow: auto;
+}
+
+.email {
+	float: left;
+}
+
+h4 a {
+	float: right;
+}
