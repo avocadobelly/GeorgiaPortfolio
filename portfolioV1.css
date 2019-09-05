@@ -11,12 +11,22 @@ body {
 	padding: 0;
 }
 
-.navbar_content {
+nav {
 	overflow: auto;
 }
 
+.navbar_content {
+	overflow: auto;
+	margin: 10px auto;
+	width: 100%;
+	max-width: 1000px;
+	text-align: center;
+}
+
 .navbar_option {
-	float: left;
+	display: inline-block; 
+	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
+	padding-right: 15px;
 }
 
 .main_content {
