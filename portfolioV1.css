@@ -41,6 +41,10 @@ body {
 	margin: 100px;
 }
 
+.portfolio_heading {
+	text-align: center;
+}
+
 .portfolio_content {
 	overflow: auto;
 	
