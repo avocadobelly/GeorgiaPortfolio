@@ -11,3 +11,12 @@ body {
 	padding: 0;
 }
 
+.maincontent {
+	background-image: url("windingriver.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 500px;
+	
+}
+
+
