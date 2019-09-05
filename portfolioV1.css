@@ -40,12 +40,17 @@ body {
 .about_me {
 	padding: 0px 20px;
 	margin: 100px;
+}
+
+.portfolio_content {
+	overflow: auto;
 	
 }
 
 .portfolio_content div {
 	width: 33.3%;
 	height: 500px;
+	float: left;
 	
 }
 
