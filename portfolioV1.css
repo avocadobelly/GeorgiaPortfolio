@@ -12,11 +12,34 @@ body {
 }
 
 .main_content {
-	background-image: url("windingriver.jpg");
+	background-image: url("https://cdn.pixabay.com/photo/2018/02/13/23/41/nature-3151869_960_720.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 500px;
+	padding: 600px;
 	
 }
 
+.portfolio_content div {
+	width: 33.3%;
+	height: 500px;
+}
+
+.portfolio_project1
+{
+	background-image: url("https://cdn.pixabay.com/photo/2019/08/30/10/28/cep-4440928_960_720.jpg");
+	background-size: cover;
+	
+}
+
+.portfolio_project2
+{
+	background-image: url("https://cdn.pixabay.com/photo/2013/06/05/22/03/mushrooms-116973_960_720.jpg");
+	background-size: cover;
+}
+
+.portfolio_project3
+{
+	background-image: url("https://cdn.pixabay.com/photo/2017/09/25/21/13/mushroom-2786789_960_720.jpg");
+	background-size: cover;
+}
 
