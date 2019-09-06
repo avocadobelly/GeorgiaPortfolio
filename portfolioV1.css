@@ -82,6 +82,10 @@ h3 {
 
 }
 
+.portfolio_content div:hover {
+	opacity: 0.5;
+	
+}
 .portfolio_content a {
 	color: #F1F4E6;
 }
