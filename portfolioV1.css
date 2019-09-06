@@ -29,7 +29,6 @@ nav {
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
 	padding-right: 50px;
 	background-color: #E1AF89;
-	
 }
 
 .navbar_option a {
@@ -44,6 +43,7 @@ nav {
 	padding: 150px 600px 1000px 600px;
 	color: #ffffff;
 	height: 100vh;
+	padding: 20px 450px 800px 450px;
 }
 
 .headers {
@@ -54,6 +54,7 @@ nav {
 .name {
 	font-size: 2.5vw;
 	font-weight: normal;
+	
 }
 
 .job {
@@ -64,6 +65,7 @@ nav {
 p {
 	text-align: justify;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75vw;
 }
 .about_me {
 	padding: 0 20px;
