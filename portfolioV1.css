@@ -48,15 +48,17 @@ nav {
 
 .headers {
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Helvetica", Arial, sans-serif;
 }
 
 .name {
+	font-size: 2.5vw;
 	font-weight: normal;
 }
 
 .job {
 	font-weight: normal;
+	font-size: 1vw;
 }
 
 p {
