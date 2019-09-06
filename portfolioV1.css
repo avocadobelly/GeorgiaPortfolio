@@ -50,6 +50,9 @@ nav {
 	text-align: center;
 }
 
+p {
+	text-align: justify;
+}
 .about_me {
 	padding: 0 20px;
 	margin: 100px;
