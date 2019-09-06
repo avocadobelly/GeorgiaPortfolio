@@ -136,8 +136,6 @@ h4 a {
 	float: right;
 	text-decoration: none;
 	color: #2B1D12;
+	margin-left:5px;
 }
 
-a i {
-	size: 300%;
-}
