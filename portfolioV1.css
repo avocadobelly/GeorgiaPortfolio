@@ -120,6 +120,7 @@ footer {
 	max-width: 500px;
 	text-align: center;
 	color: #2B1D12;
+	padding: 20px 0;
 }
 
 h4 {
@@ -135,4 +136,8 @@ h4 a {
 	float: right;
 	text-decoration: none;
 	color: #2B1D12;
+}
+
+a i {
+	size: 300%;
 }
