@@ -55,6 +55,7 @@ nav {
 	margin: 100px;
 	border-style: solid;
 	border-width: 1px;
+	border-radius: 10px;
 }
 
 .portfolio_section {
