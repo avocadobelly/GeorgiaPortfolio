@@ -27,7 +27,7 @@ nav {
 .navbar_option {
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
 	display: inline-block; 
-	padding: 0 25px 0 25px;
+	padding: 0 25px;
 	background-color: #E1AF89;
 }
 
