@@ -27,7 +27,7 @@ nav {
 .navbar_option {
 	display: inline-block; 
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
-	padding-right: 50px;
+	padding: 0 25px 0 25px;
 	background-color: #E1AF89;
 }
 
@@ -40,7 +40,6 @@ nav {
 @media screen and (max-width: 640px) {
 	.navbar_option {
 		display: block;
-		width: 100%;
 	}
 }
 
