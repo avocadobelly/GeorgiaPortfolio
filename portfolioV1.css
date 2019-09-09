@@ -185,7 +185,7 @@ h4 a {
 @media screen and (max-width: 640px) {
 	.main_container {
 		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
-		max-height: 250px;
+		max-height: 350px;
 	}
 	.about_me {
 		margin-top: 0;
