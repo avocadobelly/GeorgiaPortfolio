@@ -33,7 +33,7 @@ nav {
 
 .navbar_option a {
 	text-decoration: none;
-	color:#2B1D12;
+	color: #2B1D12;
 	font-family: Arial, Helvetica, sans-serif;
 }
 .main_container {
@@ -89,7 +89,6 @@ p {
 
 .portfolio_content {
 	overflow: auto;
-	
 }
 
 .portfolio_content div {
@@ -103,13 +102,11 @@ p {
 h3 {
 	margin: 0;
 	padding: 10px;
-
 }
 
 .portfolio_content div:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
-	
 }
 .portfolio_content a {
 	color: #F1F4E6;
@@ -121,20 +118,18 @@ h3 {
 	border-color: #F1F4E6;
 	padding: 2px;
 }
-.portfolio_project1
-{
+
+.portfolio_project1 {
 	background-image: url("https://cdn.pixabay.com/photo/2019/08/30/10/28/cep-4440928_960_720.jpg");
 	background-size: cover;	
 }
 
-.portfolio_project2
-{
+.portfolio_project2 {
 	background-image: url("https://cdn.pixabay.com/photo/2013/06/05/22/03/mushrooms-116973_960_720.jpg");
 	background-size: cover;
 }
 
-.portfolio_project3
-{
+.portfolio_project3 {
 	background-image: url("https://cdn.pixabay.com/photo/2017/09/25/21/13/mushroom-2786789_960_720.jpg");
 	background-size: cover;
 }
@@ -150,8 +145,7 @@ footer {
 	max-width: 500px;
 	text-align: center;
 	color: #2B1D12;
-	padding: 20px 0;
-	
+	padding: 20px 0;	
 }
 
 h4 {
