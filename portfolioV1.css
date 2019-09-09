@@ -178,7 +178,7 @@ h4 a {
 /*This is to change the size of the backgound image when the screen size is 640px or less*/
 @media screen and (max-width: 640px) {
 	.main_container {
-		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
+		/*This means the container will not get larger than 350px in height at a screen size of 640px in width*/
 		max-height: 350px;
 	}
 	
@@ -208,6 +208,10 @@ h4 a {
 @media screen and (max-width: 430px) {
 	.about_me {
 		font-size: 1rem;
+	}
+	.main_container {
+		/*This means the container will not get larger than 450px in height at a screen size of 430px in width*/
+		max-height: 450px;
 	}
 }
 
