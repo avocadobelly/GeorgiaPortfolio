@@ -38,13 +38,6 @@ nav {
 	font-size: 1.25rem;
 }
 
-/*On screens that are 640px or smaller the navbar menu options will stack on top of each other instead of side by side*/
-@media screen and (max-width: 640px) {
-	.navbar_option {
-		display: block;
-	}
-}
-
 .main_container {
 	background-image: url("https://cdn.pixabay.com/photo/2018/02/13/23/41/nature-3151869_960_720.jpg");
 	background-size: cover;
@@ -188,9 +181,16 @@ h4 a {
 		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
 		max-height: 350px;
 	}
+	
+	/*On screens that are 640px or smaller the navbar menu options will stack on top of each other instead of side by side*/
+	.navbar_option {
+		display: block;
+	}
+	
 	.about_me {
 		margin-top: 0;
 	}
+	
 	/*Only one portfolio item per line*/
 	.portfolio_content div {
 		width: 100%;
@@ -199,10 +199,18 @@ h4 a {
 		text-align: center;
 		padding: 200px 0;
 	}
+	
 	h4 {
 		margin: 20px;
 	}
 }
+
+@media screen and (max-width: 430px) {
+	.about_me {
+		font-size: 1rem;
+	}
+}
+
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
 	.main_container {
