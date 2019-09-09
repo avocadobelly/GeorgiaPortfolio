@@ -204,4 +204,11 @@ h4 a {
 		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
 		max-height: 500px;
 	}
+	.portfolio_content div {
+		width: 50%;
+		height: 300px;
+		float: left;
+		text-align: center;
+		padding: 200px 0;
+	}
 }
