@@ -57,7 +57,7 @@ nav {
 }
 
 .main_content {
-	padding: 20px 450px 800px 450px;
+	padding: 20px 450px 0px 450px;
 }
 
 /*This is to change the size of the backgound image when the screen size is 640px or less*/
