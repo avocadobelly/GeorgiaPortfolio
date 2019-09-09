@@ -65,7 +65,7 @@ nav {
 /*This is to change the size of the backgound image when the screen size is 640px or less*/
 @media screen and (max-width: 640px) {
 	.main_container {
-		background-size: 100vw;
+		max-height: 500px;
 	}
 }
 
