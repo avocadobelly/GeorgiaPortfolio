@@ -25,9 +25,9 @@ nav {
 }
 
 .navbar_option {
-	display: inline-block; 
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
-	padding-right: 50px;
+	display: inline-block; 
+	padding: 0 25px;
 	background-color: #E1AF89;
 }
 
@@ -35,15 +35,25 @@ nav {
 	text-decoration: none;
 	color: #2B1D12;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25rem;
 }
+
 .main_container {
 	background-image: url("https://cdn.pixabay.com/photo/2018/02/13/23/41/nature-3151869_960_720.jpg");
 	background-size: cover;
+	/*this means the background image will always be centered in the viewport even at different screen sizes*/
+	background-position: center center;
 	background-repeat: no-repeat;
-	padding: 150px 600px 1000px 600px;
+	/*This stops the background image moving when we scroll down the page*/
+	background-attachment: fixed;
 	color: #ffffff;
 	height: 100vh;
-	padding: 20px 450px 800px 450px;
+}
+
+.main_content {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 600px;
 }
 
 .headers {
@@ -52,33 +62,38 @@ nav {
 }
 
 .name {
-	font-size: 2.5vw;
+	font-size: 3rem;
 	font-weight: normal;
-	
+	margin: 0;
+	padding-top: 20px;
 }
 
 .job {
 	font-weight: normal;
-	font-size: 1vw;
+	font-size: 2rem;
 }
 
 p {
 	text-align: justify;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.75vw;
 }
+
 .about_me {
 	padding: 0 20px;
-	margin: 100px;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 10px;
-	margin-top: 150px;
-	
+	margin-top: 100px;
+	font-size: 1.5rem;
 }
 
 .portfolio_section {
 	background-color: #E1AF89;
+}
+
+h3 {
+	margin: 0;
+	padding: 10px;
 }
 
 .portfolio_heading {
@@ -93,15 +108,10 @@ p {
 
 .portfolio_content div {
 	width: 33.3%;
-	height: 500px;
+	height: 300px;
 	float: left;
 	text-align: center;
-	padding: 300px 0;
-}
-
-h3 {
-	margin: 0;
-	padding: 10px;
+	padding: 200px 0;
 }
 
 .portfolio_content div:hover {
@@ -155,13 +165,76 @@ h4 {
 
 .email {
 	float: left;
+	font-size: 1.25rem;
 	
 }
 
 h4 a {
 	float: right;
 	color: #2B1D12;
-	margin-left:5px;
-	text-decoration: none;
+	margin-left: 5px;
 }
 
+/*This is to change the size of the backgound image when the screen size is 640px or less*/
+@media screen and (max-width: 640px) {
+	.main_container {
+		/*This means the container will not get larger than 350px in height at a screen size of 640px in width*/
+		max-height: 350px;
+	}
+	
+	/*On screens that are 640px or smaller the navbar menu options will stack on top of each other instead of side by side*/
+	.navbar_option {
+		display: block;
+	}
+	
+	.about_me {
+		margin-top: 0;
+	}
+	
+	/*Only one portfolio item per line*/
+	.portfolio_content div {
+		width: 100%;
+		height: 300px;
+		float: none;
+		text-align: center;
+		padding: 200px 0;
+	}
+	
+	h4 {
+		margin: 20px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.about_me {
+		font-size: 1rem;
+	}
+	.main_container {
+		/*This means the container will not get larger than 450px in height at a screen size of 430px in width*/
+		max-height: 450px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.footer_content {
+		display: block;
+	}
+	.email {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 640px) {
+	.main_container {
+		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
+		max-height: 500px;
+	}
+	/*Only two portfolio items will sit on the same line*/
+	.portfolio_content div {
+		width: 50%;
+		height: 300px;
+		float: left;
+		text-align: center;
+		padding: 200px 0;
+	}
+}
