@@ -83,7 +83,7 @@ nav {
 }
 
 .name {
-	font-size: 2.5vw;
+	font-size: 3rem;
 	font-weight: normal;
 	margin: 0;
 	padding-top: 20px;
@@ -91,13 +91,13 @@ nav {
 
 .job {
 	font-weight: normal;
-	font-size: 1.5vw;
+	font-size: 2rem;
 }
 
 p {
 	text-align: justify;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.75vw;
+	font-size: 1.5rem;
 }
 .about_me {
 	padding: 0 20px;
