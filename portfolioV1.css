@@ -62,21 +62,6 @@ nav {
 	max-width: 600px;
 }
 
-/*This is to change the size of the backgound image when the screen size is 640px or less*/
-@media screen and (max-width: 640px) {
-	.main_container {
-		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
-		max-height: 250px;
-	}
-}
-
-@media screen and (max-width: 1024px) and (min-width: 640px) {
-	.main_container {
-		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
-		max-height: 500px;
-	}
-}
-
 .headers {
 	text-align: center;
 	font-family: "Helvetica", Arial, sans-serif;
@@ -97,15 +82,15 @@ nav {
 p {
 	text-align: justify;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.5rem;
 }
+
 .about_me {
 	padding: 0 20px;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 10px;
 	margin-top: 100px;
-	
+	font-size: 1.5rem;
 }
 
 .portfolio_section {
@@ -196,3 +181,20 @@ h4 a {
 	text-decoration: none;
 }
 
+/*This is to change the size of the backgound image when the screen size is 640px or less*/
+@media screen and (max-width: 640px) {
+	.main_container {
+		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
+		max-height: 250px;
+	}
+	.about_me {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 640px) {
+	.main_container {
+		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
+		max-height: 500px;
+	}
+}
