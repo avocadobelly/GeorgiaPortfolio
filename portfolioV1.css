@@ -219,12 +219,9 @@ h4 a {
 	.footer_content {
 		display: block;
 	}
-	/*.email {
-		float: none;
+	.email {
+		font-size: 1rem;
 	}
-	.h4 a {
-		float: none;
-	}*/
 }
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
