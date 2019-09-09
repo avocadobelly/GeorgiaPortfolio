@@ -65,6 +65,14 @@ nav {
 /*This is to change the size of the backgound image when the screen size is 640px or less*/
 @media screen and (max-width: 640px) {
 	.main_container {
+		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
+		max-height: 250px;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 640px) {
+	.main_container {
+		/*This means the container will not get larger than 500px in height at a screen size of 640px in width*/
 		max-height: 500px;
 	}
 }
