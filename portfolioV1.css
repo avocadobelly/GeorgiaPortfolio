@@ -39,7 +39,7 @@ nav {
 }
 
 .main_container {
-	background-image: url("https://cdn.pixabay.com/photo/2018/02/13/23/41/nature-3151869_960_720.jpg");
+	background-image: url("desk.jpg");
 	background-size: cover;
 	/*this means the background image will always be centered in the viewport even at different screen sizes*/
 	background-position: center center;
