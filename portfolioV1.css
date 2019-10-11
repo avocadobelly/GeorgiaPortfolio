@@ -44,7 +44,7 @@ nav {
 	/*this means the background image will always be centered in the viewport even at different screen sizes*/
 	background-position: center center;
 	background-repeat: no-repeat;
-	color: #ffffff;
+	color: #828282;
 	padding: 1px;
 	display: block;
 }
