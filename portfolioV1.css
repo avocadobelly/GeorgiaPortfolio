@@ -58,6 +58,7 @@ nav {
 .headers {
 	text-align: center;
 	font-family: "Helvetica", Arial, sans-serif;
+	color: #E1AF89;
 }
 
 .name {
@@ -65,13 +66,12 @@ nav {
 	font-weight: normal;
 	margin: 0;
 	padding-top: 20px;
-	color: #E1AF89;
+	
 }
 
 .job {
 	font-weight: normal;
 	font-size: 2rem;
-	color: #E1AF89;
 }
 
 p {
