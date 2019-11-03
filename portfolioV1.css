@@ -108,41 +108,33 @@ p {
 	float: left;
 	text-align: center;
 	padding: 200px 0;
-}
-
-.portfolio_content div:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
+
+.portfolio_content div:hover {
+	opacity: 1;
+}
 .portfolio_content a {
-	color: #2B1D12;
+	color: #ffffff;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 3px;
-	border-color: #2B1D12;
-	padding: 2px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
+.portfolio_project {
+	background-size: cover;
+}
 .portfolio_project1 {
 	background-image: url("Cobra-Paint.png");
-	background-size: cover;	
 }
 
 .portfolio_project2 {
 	background-image: url("https://cdn.pixabay.com/photo/2013/06/05/22/03/mushrooms-116973_960_720.jpg");
-	background-size: cover;
 }
 
 .portfolio_project3 {
 	background-image: url("https://cdn.pixabay.com/photo/2017/09/25/21/13/mushroom-2786789_960_720.jpg");
-	background-size: cover;
-}
-
-footer {
-	background-color: #000000;
 }
 
 h4 {
