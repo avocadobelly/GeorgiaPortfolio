@@ -108,11 +108,12 @@ p {
 	float: left;
 	text-align: center;
 	padding: 200px 0;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
 
 .portfolio_content div:hover {
-	opacity: 0.5;
-	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
+	opacity: 1;
 }
 .portfolio_content a {
 	color: #ffffff;
