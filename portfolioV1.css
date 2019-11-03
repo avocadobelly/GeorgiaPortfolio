@@ -126,19 +126,19 @@ p {
 	font-size: 1rem;
 }
 
+.portfolio_project {
+	background-size: cover;
+}
 .portfolio_project1 {
 	background-image: url("Cobra-Paint.png");
-	background-size: cover;	
 }
 
 .portfolio_project2 {
 	background-image: url("https://cdn.pixabay.com/photo/2013/06/05/22/03/mushrooms-116973_960_720.jpg");
-	background-size: cover;
 }
 
 .portfolio_project3 {
 	background-image: url("https://cdn.pixabay.com/photo/2017/09/25/21/13/mushroom-2786789_960_720.jpg");
-	background-size: cover;
 }
 
 h4 {
