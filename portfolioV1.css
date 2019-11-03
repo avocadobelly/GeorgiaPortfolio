@@ -115,15 +115,10 @@ p {
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
 .portfolio_content a {
-	color: #2B1D12;
+	color: #ffffff;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 3px;
-	border-color: #2B1D12;
-	padding: 2px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 .portfolio_project {
