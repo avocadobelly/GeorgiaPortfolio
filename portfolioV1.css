@@ -50,7 +50,7 @@ body {
 .main_content {
 	width: 90%;
 	margin: 0 auto;
-	max-width: 600px;
+	max-width: 80%;
 }
 
 .headers {
@@ -153,12 +153,13 @@ h4 {
 .email {
 	float: left;
 	font-size: 1.25rem;
+	color: #ffffff;
 	
 }
 
 h4 a {
 	float: right;
-	color: #2B1D12;
+	color: #ffffff;
 	margin-left: 5px;
 }
 
