@@ -122,6 +122,10 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 2rem;
 }
+.portfolio_overlay {
+	position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+	display: none;
+}
 
 .portfolio_project {
 	background-size: cover;
