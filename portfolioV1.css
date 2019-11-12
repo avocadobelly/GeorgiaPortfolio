@@ -113,9 +113,9 @@ p {
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
 
-.portfolio_content div:hover {
-	opacity: 0.5;
-}
+/*.portfolio_content div:hover {*/
+/* opacity: 0.5;*/
+/*}*/
 .portfolio_content a {
 	color: #ffffff;
 	text-decoration: none;
@@ -125,6 +125,12 @@ p {
 .portfolio_overlay {
 	position: absolute; top: 0; right: 0; bottom: 0; left: 0;
 	display: none;
+ }
+
+.portfolio_overlay:hover {
+	position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+	display: block;
+	opacity: 0.5;
 }
 
 .portfolio_project {
