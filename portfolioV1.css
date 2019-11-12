@@ -9,10 +9,11 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #000000;
 }
 
-nav {
-	background-color: #E1AF89;
+.menu {
+	background-color: #000000;
 }
 
 .navbar_content {
@@ -20,20 +21,18 @@ nav {
 	width: 100%;
 	max-width: 500px;
 	text-align: center;
-	background-color: #E1AF89;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .navbar_option {
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
 	display: inline-block; 
 	padding: 0 25px;
-	background-color: #E1AF89;
 }
 
 .navbar_option a {
 	text-decoration: none;
-	color: #2B1D12;
+	color: #ffffff;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.25rem;
 }
@@ -50,9 +49,9 @@ nav {
 }
 
 .main_content {
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
-	max-width: 600px;
+	max-width: 70%;
 }
 
 .headers {
@@ -91,17 +90,12 @@ p {
 }
 
 .portfolio_section {
-	background-color: #E1AF89;
-}
-
-h3 {
-	margin: 0;
-	padding: 10px;
+	background-color: #000000;
 }
 
 .portfolio_heading {
 	text-align: center;
-	color: #2B1D12;
+	color: #ffffff;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -115,36 +109,33 @@ h3 {
 	float: left;
 	text-align: center;
 	padding: 200px 0;
-}
-
-.portfolio_content div:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
+
+.portfolio_content div:hover {
+	opacity: 1;
+}
 .portfolio_content a {
-	color: #2B1D12;
+	color: #ffffff;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 3px;
-	border-color: #2B1D12;
-	padding: 2px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
+.portfolio_project {
+	background-size: cover;
+}
 .portfolio_project1 {
-	background-image: url("Cobra-Paint.png");
-	background-size: cover;	
+	background-image: url("paint.png");
 }
 
 .portfolio_project2 {
-	background-image: url("https://cdn.pixabay.com/photo/2013/06/05/22/03/mushrooms-116973_960_720.jpg");
-	background-size: cover;
+	background-image: url("recipe.png");
 }
 
 .portfolio_project3 {
-	background-image: url("https://cdn.pixabay.com/photo/2017/09/25/21/13/mushroom-2786789_960_720.jpg");
+	background-image: url("aptitude.png");
 	background-size: cover;
 }
 
@@ -159,7 +150,8 @@ footer {
 	max-width: 500px;
 	text-align: center;
 	color: #2B1D12;
-	padding: 20px 0;	
+	padding: 20px 0;
+	background-image: url("");
 }
 
 h4 {
@@ -170,16 +162,17 @@ h4 {
 .email {
 	float: left;
 	font-size: 1.25rem;
+	color: #ffffff;
 	
 }
 
 h4 a {
 	float: right;
-	color: #2B1D12;
+	color: #ffffff;
 	margin-left: 5px;
 }
 
-/*This is to change the size of the backgound image when the screen size is 640px or less*/
+/*This is to change the size of the background image when the screen size is 640px or less*/
 @media screen and (max-width: 640px) {
 	.main_container {
 		/*This means the container will not get larger than 350px in height at a screen size of 640px in width*/
