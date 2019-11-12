@@ -128,7 +128,8 @@ p {
 }
 
 .portfolio_project {
-	background-size: cover;
+	/*background-size: cover;*/
+	position: relative;
 }
 .portfolio_project1 {
 	background-image: url("paint.png");
