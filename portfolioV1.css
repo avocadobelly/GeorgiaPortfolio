@@ -89,9 +89,6 @@ p {
 	color: #000000;
 }
 
-/*.portfolio_section {*/
-/*	background-color: #000000;*/
-/*}*/
 
 .portfolio_heading {
 	text-align: center;
@@ -101,6 +98,7 @@ p {
 
 .projects {
 	overflow: auto;
+	position: relative;
 }
 
 /*.projects div:hover {*/
@@ -113,18 +111,22 @@ p {
 	font-size: 2rem;
 }
 .portfolio_overlay {
-	position: absolute; top: 0; right: 0; bottom: 0; left: 0;
-	visibility: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
 	text-align: center;
 	width: 100%;
+	opacity: 0;
  }
 
 .portfolio_overlay:hover {
-	visibility: visible;
+	display: block;
 }
 
 .project {
-	position: relative;
 	background-position: center;
 	background-size: cover;
 	width: 33.3%;
@@ -145,9 +147,7 @@ p {
 
 .portfolio_project3 {
 	background-image: url("res/aptitude.png");
-	background-size: cover;
 }
-
 
 footer {
 	background-color: #E1AF89;
@@ -198,7 +198,7 @@ h4 a {
 	}
 	
 	/*Only one portfolio item per line*/
-	.portfolio_content div {
+	.project {
 		width: 100%;
 		height: 300px;
 		float: none;
@@ -236,7 +236,7 @@ h4 a {
 		max-height: 500px;
 	}
 	/*Only two portfolio items will sit on the same line*/
-	.portfolio_content div {
+	.project {
 		width: 50%;
 		height: 300px;
 		float: left;
