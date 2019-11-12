@@ -38,7 +38,7 @@ body {
 }
 
 .main_container {
-	background-image: url("desk.jpg");
+	background-image: url("res/desk.jpg");
 	background-size: cover;
 	/*this means the background image will always be centered in the viewport even at different screen sizes*/
 	background-position: center center;
@@ -109,18 +109,18 @@ p {
 	float: left;
 	text-align: center;
 	padding: 200px 0;
-	opacity: 0.5;
+	opacity: 1;
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
 
 .portfolio_content div:hover {
-	opacity: 1;
+	opacity: 0.5;
 }
 .portfolio_content a {
 	color: #ffffff;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .portfolio_project {
@@ -131,11 +131,11 @@ p {
 }
 
 .portfolio_project2 {
-	background-image: url("recipe.png");
+	background-image: url("res/recipe.png");
 }
 
 .portfolio_project3 {
-	background-image: url("aptitude.png");
+	background-image: url("res/aptitude.png");
 	background-size: cover;
 }
 
