@@ -89,9 +89,9 @@ p {
 	color: #000000;
 }
 
-.portfolio_section {
-	background-color: #000000;
-}
+/*.portfolio_section {*/
+/*	background-color: #000000;*/
+/*}*/
 
 .portfolio_heading {
 	text-align: center;
@@ -99,24 +99,23 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.portfolio_content {
+.projects {
 	overflow: auto;
 }
 
-.portfolio_content div {
+.projects div {
 	width: 33.3%;
 	height: 300px;
 	float: left;
-	text-align: center;
 	padding: 200px 0;
 	opacity: 1;
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
 
-/*.portfolio_content div:hover {*/
-/* opacity: 0.5;*/
-/*}*/
-.portfolio_content a {
+.projects div:hover {
+ opacity: 0.5;
+}
+.portfolio_overlay a {
 	color: #ffffff;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
@@ -125,6 +124,7 @@ p {
 .portfolio_overlay {
 	position: absolute; top: 0; right: 0; bottom: 0; left: 0;
 	display: none;
+	text-align: center;
  }
 
 .portfolio_overlay:hover {
@@ -133,10 +133,12 @@ p {
 	opacity: 0.5;
 }
 
-.portfolio_project {
-	/*background-size: cover;*/
+.project {
 	position: relative;
+	background-position: center;
+	background-size: cover;
 }
+
 .portfolio_project1 {
 	background-image: url("paint.png");
 }
