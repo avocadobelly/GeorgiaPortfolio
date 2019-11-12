@@ -38,7 +38,7 @@ body {
 }
 
 .main_container {
-	background-image: url("desk.jpg");
+	background-image: url("res/desk.jpg");
 	background-size: cover;
 	/*this means the background image will always be centered in the viewport even at different screen sizes*/
 	background-position: center center;
@@ -131,11 +131,11 @@ p {
 }
 
 .portfolio_project2 {
-	background-image: url("recipe.png");
+	background-image: url("res/recipe.png");
 }
 
 .portfolio_project3 {
-	background-image: url("aptitude.png");
+	background-image: url("res/aptitude.png");
 	background-size: cover;
 }
 
