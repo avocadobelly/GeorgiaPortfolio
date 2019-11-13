@@ -9,11 +9,15 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #000000;
+	/*background-color: #000000;*/
+	background-color: #00a78e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
 }
 
 .menu {
-	background-color: #000000;
+	/*background-color: #000000;*/
+	background-color: #7d3f98;
 }
 
 .navbar_content {
@@ -33,8 +37,6 @@ body {
 .navbar_option a {
 	text-decoration: none;
 	color: #ffffff;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.25rem;
 }
 
 .main_container {
@@ -49,7 +51,7 @@ body {
 }
 
 .main_content {
-	width: 70%;
+	width: 50%;
 	margin: 0 auto;
 	max-width: 70%;
 }
@@ -89,9 +91,6 @@ p {
 	color: #000000;
 }
 
-.portfolio_section {
-	background-color: #000000;
-}
 
 .portfolio_heading {
 	text-align: center;
@@ -99,33 +98,49 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.portfolio_content {
+.projects {
 	overflow: auto;
 }
 
-.portfolio_content div {
+.portfolio_links {
+	padding: 250px 100px 25px 100px;
+}
+
+.portfolio_overlay a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	margin: 0 5px;
+}
+.portfolio_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: #ffffff8a;
+ }
+
+.portfolio_overlay:hover {
+	opacity: 1;
+	z-index: 100;
+}
+
+.project {
+	position: relative;
+	background-position: center;
+	background-size: cover;
 	width: 33.3%;
 	height: 300px;
 	float: left;
-	text-align: center;
 	padding: 200px 0;
 	opacity: 1;
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
 }
 
-.portfolio_content div:hover {
-	opacity: 0.5;
-}
-.portfolio_content a {
-	color: #ffffff;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 2rem;
-}
-
-.portfolio_project {
-	background-size: cover;
-}
 .portfolio_project1 {
 	background-image: url("paint.png");
 }
@@ -136,12 +151,10 @@ p {
 
 .portfolio_project3 {
 	background-image: url("res/aptitude.png");
-	background-size: cover;
 }
 
-
 footer {
-	background-color: #E1AF89;
+	background-color: #f47721;
 }
 
 .footer_content {
@@ -151,7 +164,6 @@ footer {
 	text-align: center;
 	color: #2B1D12;
 	padding: 20px 0;
-	background-image: url("");
 }
 
 h4 {
@@ -189,7 +201,7 @@ h4 a {
 	}
 	
 	/*Only one portfolio item per line*/
-	.portfolio_content div {
+	.project {
 		width: 100%;
 		height: 300px;
 		float: none;
@@ -227,7 +239,7 @@ h4 a {
 		max-height: 500px;
 	}
 	/*Only two portfolio items will sit on the same line*/
-	.portfolio_content div {
+	.project {
 		width: 50%;
 		height: 300px;
 		float: left;
