@@ -11,6 +11,8 @@ body {
 	padding: 0;
 	/*background-color: #000000;*/
 	background-color: #00a78e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
 }
 
 .menu {
@@ -35,8 +37,6 @@ body {
 .navbar_option a {
 	text-decoration: none;
 	color: #ffffff;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.25rem;
 }
 
 .main_container {
@@ -51,7 +51,7 @@ body {
 }
 
 .main_content {
-	width: 70%;
+	width: 50%;
 	margin: 0 auto;
 	max-width: 70%;
 }
@@ -103,7 +103,7 @@ p {
 }
 
 .portfolio_links {
-	padding: 350px 100px 25px 100px;
+	padding: 250px 100px 25px 100px;
 }
 
 .portfolio_overlay a {
