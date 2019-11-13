@@ -102,6 +102,10 @@ p {
 	overflow: auto;
 }
 
+.portfolio_links {
+	padding: 350px 100px 25px 100px;
+}
+
 .portfolio_overlay a {
 	color: #ffffff;
 	text-decoration: none;
