@@ -9,11 +9,13 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #000000;
+	/*background-color: #000000;*/
+	background-color: #00a78e;
 }
 
 .menu {
-	background-color: #000000;
+	/*background-color: #000000;*/
+	background-color: #7d3f98;
 }
 
 .navbar_content {
@@ -148,7 +150,7 @@ p {
 }
 
 footer {
-	background-color: #E1AF89;
+	background-color: #f47721;
 }
 
 .footer_content {
