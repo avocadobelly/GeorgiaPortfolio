@@ -9,11 +9,6 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #000000;
-}
-
-.menu {
-	background-color: #000000;
 }
 
 .navbar_content {
@@ -35,10 +30,12 @@ body {
 	color: #ffffff;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.25rem;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	padding: 5px;
 }
 
 .main_container {
-	background-image: url("desk.jpg");
 	background-size: cover;
 	/*this means the background image will always be centered in the viewport even at different screen sizes*/
 	background-position: center center;
@@ -46,10 +43,11 @@ body {
 	color: #c7c7c7;
 	padding: 1px;
 	display: block;
+	/*background-color: #19AFD0;*/
 }
 
 .main_content {
-	width: 70%;
+	width: 50%;
 	margin: 0 auto;
 	max-width: 70%;
 }
