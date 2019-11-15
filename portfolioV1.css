@@ -11,15 +11,19 @@ body {
 	padding: 0;
 }
 
-.navbar_content {
+.main_nav {
+	background-color: #FFC0CB;
+}
+
+.nav_content {
 	margin: 0px auto;
-	width: 100%;
-	max-width: 500px;
+	/*width: 100%;*/
+	/*max-width: 500px;*/
 	text-align: center;
 	padding: 20px 0;
 }
 
-.navbar_option {
+.nav_option {
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
 	display: inline-block; 
 	padding: 30px 30px;
