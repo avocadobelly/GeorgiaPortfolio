@@ -16,13 +16,13 @@ body {
 	width: 100%;
 	max-width: 500px;
 	text-align: center;
-	padding: 30px 30px;
+	padding: 20px 0;
 }
 
 .navbar_option {
 	/*This means the list items will be treated like they're text so when we text align in the parent element this will work*/
 	display: inline-block; 
-	padding: 0 25px;
+	padding: 30px 30px;
 }
 
 .navbar_option a {
