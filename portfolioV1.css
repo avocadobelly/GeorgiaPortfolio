@@ -9,6 +9,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_nav {
@@ -17,8 +18,6 @@ body {
 
 .nav_content {
 	margin: 0px auto;
-	/*width: 100%;*/
-	/*max-width: 500px;*/
 	text-align: center;
 	padding: 20px 0;
 }
@@ -32,7 +31,6 @@ body {
 .nav_option a {
 	color: #ffffff;
 	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.25rem;
 	border: 1px solid #ffffff;
 	border-radius: 5px;
@@ -52,9 +50,8 @@ body {
 }
 
 .main_container {
-	color: #c7c7c7;
 	padding: 1px;
-	background-color: #19AFD0;
+	background-color: #b7ded2;
 }
 
 .main_content {
@@ -65,13 +62,12 @@ body {
 
 .headers {
 	text-align: center;
-	font-family: "Helvetica", Arial, sans-serif;
 	color: #ffffff;
 }
 
 .name {
 	font-size: 3rem;
-	font-weight: normal;
+	font-weight: lighter;
 	margin: 0;
 	padding-top: 20px;
 	
@@ -84,7 +80,7 @@ body {
 
 p {
 	text-align: justify;
-	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
 }
 
 .about_me {
@@ -95,46 +91,35 @@ p {
 	margin: 100px 0;
 	font-size: 1.5rem;
 	background-color: #ffffff8a;
-	color: #000000;
+	border-color: #477a67;
 }
 
 .portfolio_section {
-	background-color: #000000;
+	background-color: #b7ded2;
 }
 
-.portfolio_heading {
-	text-align: center;
-	color: #ffffff;
-	font-family: Arial, Helvetica, sans-serif;
-}
+/*	text-shadow: 4px 4px 4px black;*/
+
 
 .portfolio_content {
 	overflow: auto;
 }
 
-.portfolio_content div {
+.portfolio_project {
 	width: 33.3%;
 	height: 300px;
 	float: left;
 	text-align: center;
 	padding: 200px 0;
-	opacity: 0.5;
+	opacity: 0.6;
 	filter: alpha(opacity=50); /*Compatible with IE8 and earlier*/
-}
-
-.portfolio_content div:hover {
-	opacity: 1;
-}
-.portfolio_content a {
-	color: #ffffff;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.5rem;
-}
-
-.portfolio_project {
 	background-size: cover;
 }
+
+.portfolio_project:hover {
+	opacity: 1;
+}
+
 .portfolio_project1 {
 	background-image: url("paint.png");
 }
@@ -147,16 +132,24 @@ p {
 	background-image: url("");
 }
 
+.portfolio_content a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
+}
+
+.footer_content {
+	background-color: #FFC0CB;
+}
 h4 {
 	overflow: auto;
-	
 }
 
 .email {
 	float: left;
 	font-size: 1.25rem;
 	color: #ffffff;
-	
 }
 
 h4 a {
@@ -173,7 +166,7 @@ h4 a {
 	}
 	
 	/*On screens that are 640px or smaller the navbar menu options will stack on top of each other instead of side by side*/
-	.navbar_option {
+	.nav_option {
 		display: block;
 	}
 	
@@ -182,7 +175,7 @@ h4 a {
 	}
 	
 	/*Only one portfolio item per line*/
-	.portfolio_content div {
+	.portfolio_project {
 		width: 100%;
 		height: 300px;
 		float: none;
@@ -220,7 +213,7 @@ h4 a {
 		max-height: 500px;
 	}
 	/*Only two portfolio items will sit on the same line*/
-	.portfolio_content div {
+	.portfolio_project {
 		width: 50%;
 		height: 300px;
 		float: left;
