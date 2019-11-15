@@ -29,9 +29,9 @@ body {
 	padding: 30px 30px;
 }
 
-.navbar_option a {
-	text-decoration: none;
+.nav_option a {
 	color: #ffffff;
+	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.25rem;
 	border: 1px solid #ffffff;
@@ -39,15 +39,22 @@ body {
 	padding: 5px;
 }
 
+.about_link:hover {
+	color: #84BE6A;
+}
+
+.portfolio_link:hover {
+	color: #cbffc0;
+}
+
+.contact_link:hover {
+	color: #b7ded2;
+}
+
 .main_container {
-	background-size: cover;
-	/*this means the background image will always be centered in the viewport even at different screen sizes*/
-	background-position: center center;
-	background-repeat: no-repeat;
 	color: #c7c7c7;
 	padding: 1px;
-	display: block;
-	/*background-color: #19AFD0;*/
+	background-color: #19AFD0;
 }
 
 .main_content {
