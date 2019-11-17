@@ -156,6 +156,10 @@ p {
 	font-weight: normal;
 }
 
+.project_info {
+	font-size: 2rem;
+}
+
 .portfolio_links {
 	padding: 250px 100px 25px 100px;
 }
