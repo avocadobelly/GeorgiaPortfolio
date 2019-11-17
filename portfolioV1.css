@@ -158,14 +158,11 @@ p {
 }
 
 footer {
-	background-color: #f47721;
-}
-
-.footer_content {
+	background-color: #FFC0CB;
+	border-top: 1px solid #ffffff;
 	margin: 0px auto;
 	width: 100%;
 	text-align: center;
-	color: #2B1D12;
 	padding: 20px 0;
 }
 
@@ -174,11 +171,6 @@ footer {
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.5rem;
-}
-
-.footer_content {
-	background-color: #FFC0CB;
-	border-top: 1px solid #ffffff;
 }
 
 h4 {
@@ -239,7 +231,7 @@ h4 a {
 }
 
 @media screen and (max-width: 350px) {
-	.footer_content {
+	footer {
 		display: block;
 	}
 	.email {
