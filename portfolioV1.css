@@ -151,6 +151,11 @@ p {
 	z-index: 100;
 }
 
+.project_title {
+	font-size: 3rem;
+	font-weight: normal;
+}
+
 .portfolio_links {
 	padding: 250px 100px 25px 100px;
 }
