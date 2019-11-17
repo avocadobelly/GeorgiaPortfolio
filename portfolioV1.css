@@ -248,5 +248,8 @@ footer {
 		font-size: 2rem;
 	}
 
+	.nav_option {
+		padding: 30px 5px;
+	}
 
 }
