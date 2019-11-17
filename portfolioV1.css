@@ -147,6 +147,7 @@ p {
 	opacity: 0;
 	background-color: #0000009a;
 	color: #ffffff;
+	padding: 15px;
 }
 
 .portfolio_overlay:hover {
