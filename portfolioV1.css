@@ -57,6 +57,7 @@ a {
 	max-width: 70%;
 }
 
+
 .headers {
 	text-align: center;
 	color: #ffffff;
@@ -95,6 +96,11 @@ p {
 	background-color: #b7ded2;
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
+}
+
+.portfolio_title {
+	font-weight: normal;
+	font-size: 2rem;
 }
 
 .portfolio_section {
