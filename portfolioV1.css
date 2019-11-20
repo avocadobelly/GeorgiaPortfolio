@@ -78,7 +78,7 @@ a {
 
 p {
 	text-align: justify;
-	color: #000000;
+	color: #ffffff;
 }
 
 .about_me {
@@ -89,7 +89,7 @@ p {
 	margin: 100px 0;
 	font-size: 1.5rem;
 	background-color: #ffffff8a;
-	border-color: #477a67;
+	border-color: #b7ded2;
 }
 
 .portfolio_heading {
@@ -124,7 +124,7 @@ p {
 }
 
 .portfolio_project1 {
-	background-image: url("paint.png");
+	background-image: url("res/paint.png");
 }
 
 .portfolio_project2 {
