@@ -44,17 +44,18 @@ a {
 }
 
 .nav_option a:hover {
-	color: #cbffc0;
+	color: #008b8b;
 }
 
 .main_container {
-	padding: 1px;
-	background-color: #b7ded2;
+	padding: 100px 0 275px 0;
+	background-image: url("res/tri-color-hi-res.jpg");
+	background-size: cover;
 }
 
 .main_content {
 	margin: 0 auto;
-	max-width: 70%;
+	max-width: 50%;
 }
 
 
@@ -64,7 +65,7 @@ a {
 }
 
 .name {
-	font-size: 3rem;
+	font-size: 5rem;
 	font-weight: lighter;
 	margin: 0;
 	padding-top: 20px;
@@ -73,12 +74,12 @@ a {
 
 .job {
 	font-weight: normal;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 p {
 	text-align: justify;
-	color: #000000;
+	color: #008b8b;
 }
 
 .about_me {
@@ -88,8 +89,8 @@ p {
 	border-radius: 10px;
 	margin: 100px 0;
 	font-size: 1.5rem;
-	background-color: #ffffff8a;
-	border-color: #477a67;
+	background-color: #ffffff;
+	border-color: #b7ded2;
 }
 
 .portfolio_heading {
@@ -124,7 +125,7 @@ p {
 }
 
 .portfolio_project1 {
-	background-image: url("paint.png");
+	background-image: url("res/paint.png");
 }
 
 .portfolio_project2 {
@@ -146,7 +147,6 @@ p {
 	height: 100%;
 	opacity: 0;
 	background-color: #0000009a;
-	color: #ffffff;
 	padding: 15px;
 }
 
@@ -162,6 +162,7 @@ p {
 
 .project_info {
 	font-size: 2rem;
+	color: #ffffff;
 }
 
 .portfolio_links a {
