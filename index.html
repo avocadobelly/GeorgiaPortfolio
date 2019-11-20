@@ -13,13 +13,13 @@
 		<nav class="main_nav">
 			<ul class="nav_content">
 				<li class="nav_option">
-					<a class="about_link" href="#about_me_id"> ABOUT ME </a>
+					<a href="#about_me_id"> ABOUT ME </a>
 				</li>
 				<li class="nav_option">
-					<a class="portfolio_link" href="#portfolio"> PORTFOLIO </a>
+					<a href="#portfolio"> PORTFOLIO </a>
 				</li>
 				<li class="nav_option">
-					<a class="contact_link" href="#contact_me"> GET IN TOUCH </a>
+					<a href="#contact_me"> GET IN TOUCH </a>
 				</li>
 			</ul>
 		</nav>
@@ -27,7 +27,7 @@
 		<main class="main_container">
 			<section class="main_content">
 				<div id="about_me_id" class="headers">
-					<h1 class="name">GEORGIA CONNELL BASS</h1>
+					<h2 class="name">GEORGIA CONNELL BASS</h2>
 					<h2 class="job">WEB DEVELOPER</h2>
 				</div>	
 			
@@ -38,38 +38,38 @@
 				</div>
 			</section>
 		</main>
-		
+		<div id="portfolio" class="nav_content portfolio_heading">
+			<h1 class="nav_option headers portfolio_title"> PORTFOLIO</h1>
+		</div>
 		<section class="portfolio_section">
-			<ul class="nav_content">
-				<li class="nav_option headers" id="portfolio"> PORTFOLIO </li>
-			</ul>
 			<div class="projects">
 				<div class="project portfolio_project1">
 					<div class="portfolio_overlay">
-						<h3>JS Paint</h3>
-						<p>Team project built in Javascript</p>
-						<div class="portfolio_links">
-							<a href="file:///Users/academy/Documents/form.html" target="_blank">PROJECT</a>
-							<a href="https://github.com/Mayden-Academy/2019-Aug-Bread-and-ifit-cobras" target="_blank">CODE</a>
-						</div>
-					</div>
-				</div>
-				<div class="project portfolio_project2">
-					<div class="portfolio_overlay">
-						<h3>Recipe App</h3>
-						<p>Team project built in PHP and Bootstrap using OOP principles</p>
+						<h3 class="project_title">Paint App</h3>
+						<p class="project_info">This was my first team project at Mayden Academy.  We used Javascript to auto-generate a canvas dynamically on page load based on a size of the users choosing.
+							Using event handling we allowed the user to paint in a colour of their choosing and erase their work</p>
 						<div class="portfolio_links">
 							<a href="https://dev.maydenacademy.co.uk/projects/2019Aug/2019-aug-cobra-paint/" target="_blank">PROJECT</a>
 							<a href="https://github.com/Mayden-Academy/2019-aug-JS-paint" target="_blank">CODE</a>
 						</div>
 					</div>
 				</div>
+				<div class="project portfolio_project2">
+					<div class="portfolio_overlay">
+						<h3 class="project_title">Recipe App</h3>
+						<p class="project_info">Using PHP and applying SOLID OOP principles, our application returns recipes from an API based on user selected ingredients.
+							We used SASS for general styling and Bootstrap to add an accordion and carousel to the front-end.</p>
+						<div class="portfolio_links">
+							<a href="http://dev.maydenacademy.co.uk/projects/2019Aug/2019-aug-bread-and-ifit/app/" target="_blank">PROJECT</a>
+							<a href="https://github.com/Mayden-Academy/2019-Aug-Bread-and-ifit-cobras" target="_blank">CODE</a>
+						</div>
+					</div>
+				</div>
 				<div class="project portfolio_project3">
 					<div class="portfolio_overlay">
-						<h3>Aptitude Test</h3>
-						<p>Team project built in JS building upon an existing legacy application.</p>
+						<h3 class="project_title">Aptitude Test</h3>
+						<p class="project_info">My first project working on a legacy code base. I pair-programmed on a task where we made a Fetch request to an API to get a list of available tests and then used the Handlebars templating engine to populate a dropdown with this information. </p>
 						<div class="portfolio_links">
-							<a href="">PROJECT</a>
 							<a href="https://github.com/Mayden-Academy/aptitude-test" target="_blank">CODE</a>
 						</div>
 					</div>
