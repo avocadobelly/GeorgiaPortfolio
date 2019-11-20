@@ -44,7 +44,7 @@ a {
 }
 
 .nav_option a:hover {
-	color: #cbffc0;
+	color: #008b8b;
 }
 
 .main_container {
@@ -79,7 +79,7 @@ a {
 
 p {
 	text-align: justify;
-	color: #ffffff;
+	color: #008b8b;
 }
 
 .about_me {
@@ -89,7 +89,7 @@ p {
 	border-radius: 10px;
 	margin: 100px 0;
 	font-size: 1.5rem;
-	background-color: #ffffff8a;
+	background-color: #ffffff;
 	border-color: #b7ded2;
 }
 
