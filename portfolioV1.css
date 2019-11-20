@@ -147,7 +147,6 @@ p {
 	height: 100%;
 	opacity: 0;
 	background-color: #0000009a;
-	color: #ffffff;
 	padding: 15px;
 }
 
@@ -163,6 +162,7 @@ p {
 
 .project_info {
 	font-size: 2rem;
+	color: #ffffff;
 }
 
 .portfolio_links a {
