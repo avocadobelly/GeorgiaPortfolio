@@ -50,13 +50,13 @@ a {
 .main_container {
 	padding: 1px;
 	/*background-color: #b7ded2;*/
-	background-image: url("res/tri-color.jpg");
+	background-image: url("res/tri-color-hi-res.jpg");
 	background-size: cover;
 }
 
 .main_content {
 	margin: 0 auto;
-	max-width: 70%;
+	max-width: 50%;
 }
 
 
