@@ -49,7 +49,9 @@ a {
 
 .main_container {
 	padding: 1px;
-	background-color: #b7ded2;
+	/*background-color: #b7ded2;*/
+	background-image: url("res/tri-color.jpg");
+	background-size: cover;
 }
 
 .main_content {
