@@ -14,6 +14,7 @@ body {
 
 a {
 	text-decoration: none;
+	font-size: 2rem;
 	color: #ffffff;
 }
 
@@ -39,7 +40,6 @@ a:hover {
 }
 
 .nav_option a {
-	font-size: 1.25rem;
 	border: 1px solid #ffffff;
 	border-radius: 5px;
 	padding: 5px;
@@ -167,7 +167,6 @@ p {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #FFC0CB;
-	font-size: 2rem;
 	margin: 0 5px;
 }
 
