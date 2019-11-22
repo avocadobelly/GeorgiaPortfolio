@@ -257,6 +257,15 @@ footer {
 
 }
 
+@media screen and (max-width: 520px) {
+
+	.about_me {
+		padding: 25px 50px;
+	}
+
+}
+
+
 @media screen and (max-width: 450px) {
 
 	.email {
@@ -265,6 +274,10 @@ footer {
 
 	.nav_option {
 		padding: 30px 5px;
+	}
+
+	.about_me {
+		padding: 10px 25px;
 	}
 
 }
