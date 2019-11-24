@@ -45,7 +45,6 @@ a {
 	border: 2px solid #ffffff;
 }
 
-
 .main_container {
 	padding: 100px 0 275px 0;
 	background-image: url("res/tri-color-hi-res.jpg");
@@ -79,7 +78,7 @@ a {
 }
 
 p {
-	text-align: justify;
+	text-align: left;
 	color: #FFC0CB;
 }
 
