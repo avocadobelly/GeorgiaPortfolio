@@ -49,6 +49,8 @@ a {
 .main_container {
 	padding: 100px 0 275px 0;
 	background-image: url("res/tri-color-hi-res.jpg");
+	/*background-color as back up if image fails to load, provides contrast with headings*/
+	background-color: #616161;
 	background-size: cover;
 }
 
